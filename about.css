@@ -1,0 +1,80 @@
+/* --- About Page Styles --- */
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.about-hero {
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('images/plantrosa.png');
+    /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.about-title {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+/* Main Content Section */
+.about-section {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* The "Card" Container */
+.about-container {
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Typography inside the Story */
+.story h2 {
+    font-size: 2.5rem;
+    color: #385a42;
+    margin: 0 0 20px 0;
+}
+
+.story p {
+    line-height: 1.8;
+    color: #444;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.story strong {
+    color: #385a42;
+    /* Makes strong text match your brand green */
+}
+
+/* Button Styling */
+.buyButton {
+    background-color: transparent;
+    color: #385a42;
+    border: 2px solid #385a42;
+    padding: 12px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    font-family: "Lato", sans-serif;
+    display: inline-block;
+}
+
+.buyButton:hover {
+    background-color: #385a42;
+    color: white;
+}

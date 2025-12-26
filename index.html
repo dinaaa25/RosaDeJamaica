@@ -1,0 +1,229 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel=" stylesheet" href="style.css">
+    <title>Rosa Store</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+                <div class="logoContainer">
+                    <h1 class="textLogo">Rosa de Jamaica</h1>
+                </div>
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <button type="submit" aria-label="Submit Search">
+                        <img src="./images/searchimg.png" width="20" height="20" alt="" class="searchIcon">
+                    </button>
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">Rosa Single Pack</h3>
+            <h3 class="menuItem">Rosa Mini Pack</h3>
+            <h3 class="menuItem">Rosa Couples Pack</h3>
+            <h3 class="menuItem">Rosa Family Pack</h3>
+            <h3 class="menuItem">Rosa For Friends</h3>
+        </div>
+        <div class="navEmailBar">
+            <div class="emailContainer">
+                <label for="userEmail">Stay Updated:</label>
+                <input type="email" id="userEmail" placeholder="Type your email here" class="emailInput">
+                <button onclick="sendOrder()" class="emailButton">Join the List</button>
+            </div>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./images/NewSingleRosa.png" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle"> <br>Regular Pack</br>Rosa de Jamaica</h1>
+                <h1 class="sliderPrice">$10</h1>
+                <button class="buyButton">Buy Now!</button>
+            </div>
+            <div class="sliderItem">
+                <img src="./images/NewMiniRosa.png" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle"> <br>Mini Pack</br>Rosa de Jamaica</h1>
+                <h1 class="sliderPrice">$5</h1>
+                <button class="buyButton">Buy Now!</button>
+            </div>
+            <div class="sliderItem">
+                <img src="./images/couplesRosa.png" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle"> <br>Couples Pack</br>Rosa de Jamaica</h1>
+                <h1 class="sliderPrice">$15</h1>
+                <button class="buyButton">Buy Now!</button>
+            </div>
+            <div class="sliderItem">
+                <img src="./images/NewFamilyRosa.png" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle"> <br>Family Pack</br>Rosa de Jamaica</h1>
+                <h1 class="sliderPrice">$30</h1>
+                <button class="buyButton">Buy Now!</button>
+            </div>
+            <div class="sliderItem">
+                <img src="./images/rosaFriends.png" alt="" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle"> <br>Friends Pack</br>Rosa de Jamaica</h1>
+                <h1 class="sliderPrice">$25</h1>
+                <button class="buyButton">Buy Now!</button>
+            </div>
+        </div>
+    </div>
+    <section class="organic-collection-section">
+        <h2>Mix, Signature and Organic Enjoy</h2>
+
+        <div class="product-grid">
+            <div class="product-itemDrinks">
+                <div class="image-wrapper">
+                    <img src="images/lemonade.png" alt="Rosa Lemonade" width="200" class="product-image">
+                </div>
+                <p class="product-name">Fresh Hibiskus Lemonade</p>
+            </div>
+
+            <div class="product-itemDrinks">
+                <div class="image-wrapper">
+                    <img src="images/alcdrink.png" alt="Rosa Drink" width="200" class="product-image">
+                </div>
+                <p class="product-name">The Original Rosa After-Work Drink</p>
+            </div>
+
+            <div class="product-itemDrinks">
+                <div class="image-wrapper">
+                    <img src="images/tea.png" alt="Rosa Tea" width="200" class="product-image">
+                </div>
+                <p class="product-name">Ready-to-Brew Hibiscus Tea</p>
+            </div>
+
+            <div class="product-itemDrinks">
+                <div class="image-wrapper">
+                    <img src="images/jam.png" alt="Rosa Jam" width="200" class="product-image">
+                </div>
+                <p class="product-name">Homemade Rosa Jam</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="about-section">
+        <div class="about-container">
+            <div class="about-content">
+                <h2 class="about-title">OUR STORY</h2>
+                <p class="about-text">
+                    Founded with a passion for authentic flavors, Rosa de Jamaica brings you the finest hibiscus
+                    products.
+                    We ethically source our ingredients to craft each item with care, honoring the rich heritage of
+                    the "Rosa de Jamaica." Join us on a journey to healthy, flavorful living.
+                </p>
+                <a href="about.html" style="text-decoration: none;">
+                    <button class="about-button">Read More</button>
+                </a>
+            </div>
+            <div class="about-image-container">
+                <img src="images/plantrosa.png" alt="Fresh Hibiscus" class="about-circle-img">
+            </div>
+        </div>
+    </section>
+    <section class="organic-collection-section">
+        <h2>Testimonials</h2>
+
+        <div class="product-grid">
+
+            <div class="product-item">
+                <p class="image-wrapper">"Seriously,<br>ditch the sugar-loaded sodas<br>This Fresh Hibiscus
+                    Lemonade<br>is the real deal—super refreshing <br> and it actually tastes clean and zesty."<br> —
+                    Alex T., 25 </p>
+            </div>
+            <div class="product-item">
+                <img src="images/reviewBoy.png" alt="Rosa Tea" width="200" class="product-image">
+            </div>
+            <div class="product-item">
+                <p class="image-wrapper">"This Hibiscus Tea is perfect.</br>It's natural and a bit
+                    sweet<br> It helped me a lot with my digestion.<br>It makes me feel healthy.
+                    <br>— Samantha B., 30
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="images/reviewGirl.png" alt="Rosa Tea" width="200" class="product-image">
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Brand & Trust -->
+            <div class="footer-col">
+                <h3 class="brandname">Rosa de Jamaica</h3>
+                <p>Secure, reliable, and customer-focused online shopping.</p>
+                <div class="trust-badges">
+                    <span>SSL Secured</span>
+                    <span>Secure Payments</span>
+                    <span>Fast Delivery</span>
+                </div>
+            </div>
+
+
+            <!-- Customer Service -->
+            <div class="footer-col">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Track Your Order</a></li>
+                </ul>
+            </div>
+
+
+            <!-- Company -->
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    <li><a href="termsconditions.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+
+            <!-- Payments & Social Proof -->
+            <div class="footer-col">
+                <h4>We Accept</h4>
+                <div class="payments">
+                    <span>Visa</span>
+                    <span>Mastercard</span>
+                    <span>PayPal</span>
+                    <span>Apple Pay</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/rosaaaajamaica/">Instagram</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            <p>© 2025 Rosa de Jamaica. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
